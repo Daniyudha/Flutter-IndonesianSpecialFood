@@ -1,8 +1,9 @@
-List places = [
+List menu = [
   {
     "name": "Nasi Padang",
     "img": "assets/nasi-padang.jpeg",
     "location": "Padang, Indonesia",
+    "slug": "nasi-padang",
     "description":
         "Nasi padang adalah nasi putih yang disajikan dengan berbagai macam lauk-pauk khas Indonesia. Kata padang merujuk pada ibu kota Provinsi Sumatra Barat: Padang. Nasi padang adalah sebuah hidangan yang disajikan secara lengkap secara prasmanan dengan daging, ikan, sayuran, dan makanan pedas dimakan dengan nasi putih, itu adalah komoditas ekspor paling terkenal dan masyarakat Minangkabau mempunyai kontribusi yang besar untuk masakan Indonesia.",
     "title1": "Gulai Ayam",

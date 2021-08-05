@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:indonesianspecialfood/util/places.dart';
+import 'package:indonesianspecialfood/util/menu.dart';
 import 'package:indonesianspecialfood/widget/horizontal_place_item.dart';
 import 'package:indonesianspecialfood/widget/vertical_place_item.dart';
 
@@ -66,9 +66,9 @@ class Home extends StatelessWidget {
       child: ListView.builder(
         scrollDirection: Axis.horizontal,
         primary: false,
-        itemCount: places == null ? 0.0 : places.length,
+        itemCount: menu == null ? 0.0 : menu.length,
         itemBuilder: (BuildContext context, int index) {
-          Map place = places.reversed.toList()[index];
+          Map place = menu.reversed.toList()[index];
           return HorizontalPlaceItem(place: place);
         },
       ),
@@ -82,9 +82,9 @@ class Home extends StatelessWidget {
         primary: false,
         physics: NeverScrollableScrollPhysics(),
         shrinkWrap: true,
-        itemCount: places == null ? 0 : places.length,
+        itemCount: menu == null ? 0 : menu.length,
         itemBuilder: (BuildContext context, int index) {
-          Map place = places[index];
+          Map place = menu[index];
           return VerticalPlaceItem(place: place);
         },
       ),
