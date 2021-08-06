@@ -34,9 +34,6 @@ class _IconBadgeState extends State<IconBadge> {
           top: 0.0,
           child: Container(
             padding: EdgeInsets.all(1),
-            decoration: BoxDecoration(
-              color: Theme.of(context).primaryColor,
-            ),
           ),
         ),
       ],
